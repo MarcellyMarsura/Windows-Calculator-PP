@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="author" content="Hcode Treinamentos">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <div class="center">
+        <div id="calculadora">
+            <header>
+                <div class="datetime shadow-sm p-3 mb-5 ">
+                    <div id="time">
+                        00:00
+                    </div>
+                    <div id="date">
+                        12/12/12
+                    </div>
+                </div>
+                <div id="operation">
+                    
+                </div>
+                <div id="display">
+                    0
+                </div>
+            </header>
+            <section class="container">
+                <div class="row">
+                    <button type="button" class="btn btn-others col-sm">%</button>
+                    <button type="button" class="btn btn-others col-sm">√</button>
+                    <button type="button" class="btn btn-others col-sm">x²</button>
+                    <button type="button" class="btn btn-others col-sm">¹/x</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-others col-sm">CE</button>
+                    <button type="button" class="btn btn-others col-sm">C</button>
+                    <button type="button" class="btn btn-others col-sm">←</button>
+                    <button type="button" class="btn btn-others col-sm">÷</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-number col-sm">7</button>
+                    <button type="button" class="btn btn-number col-sm">8</button>
+                    <button type="button" class="btn btn-number col-sm">9</button>
+                    <button type="button" class="btn btn-others col-sm">X</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-number col-sm">4</button>
+                    <button type="button" class="btn btn-number col-sm">5</button>
+                    <button type="button" class="btn btn-number col-sm">6</button>
+                    <button type="button" class="btn btn-others col-sm">-</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-number col-sm">1</button>
+                    <button type="button" class="btn btn-number col-sm">2</button>
+                    <button type="button" class="btn btn-number col-sm">3</button>
+                    <button type="button" class="btn btn-others col-sm">+</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-others col-sm">±</button>
+                    <button type="button" class="btn btn-number col-sm">0</button>
+                    <button type="button" class="btn btn-others col-sm">,</button>
+                    <button type="button" class="btn btn-others col-sm">=</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="scripts/controller/calcController.js"></script>
+<script src="scripts/index.js"></script>
+</body>
+</html>
